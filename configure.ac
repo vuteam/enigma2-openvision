@@ -792,17 +792,6 @@ data/vfd140/Makefile
 data/vfd255/Makefile
 data/extensions/Makefile
 data/keymaps/Makefile
-data/rc_models/Makefile
-data/skin_default/Makefile
-data/skin_default/menu/Makefile
-data/skin_default/icons/Makefile
-data/skin_default/buttons/Makefile
-data/skin_default/epg/Makefile
-data/skin_default/spinner/Makefile
-data/skin_default/LCDIcons/Makefile
-data/skin_fallback_1080/Makefile
-data/skin_fallback_1080/buttons/Makefile
-data/skin_fallback_1080/icons/Makefile
 include/Makefile
 lib/Makefile
 lib/base/eenv.cpp
@@ -841,7 +830,6 @@ lib/python/Plugins/Extensions/SocketMMI/meta/Makefile
 lib/python/Plugins/Extensions/SocketMMI/src/Makefile
 lib/python/Plugins/Extensions/TuxboxPlugins/Makefile
 lib/python/Plugins/Extensions/TuxboxPlugins/meta/Makefile
-lib/python/Plugins/PLi/Makefile
 lib/python/Plugins/SystemPlugins/CommonInterfaceAssignment/Makefile
 lib/python/Plugins/SystemPlugins/CommonInterfaceAssignment/meta/Makefile
 lib/python/Plugins/SystemPlugins/DefaultServicesScanner/Makefile
