@@ -29,7 +29,7 @@
 
 static const char *crash_emailaddr =
 #ifndef CRASH_EMAILADDR
-	"the Open Vision forum (https://forum.openvision.tech) or https://github.com/OpenVisionE2/openvision-oe/issues";
+	"Tunisia-sat forum (https://tunisia-sat.com)";
 #else
 	CRASH_EMAILADDR;
 #endif
@@ -197,7 +197,7 @@ void bsodFatal(const char *component)
 		strftime(tm_str, sizeof(tm_str), "%a %b %_d %T %Y", &tm);
 
 		fprintf(f,
-			"Open Vision Enigma2 crash log\n\n"
+			"Open TS Enigma2 crash log\n\n"
 			"crashdate=%s\n"
 			"compiledate=%s\n"
 			"skin=%s\n"
