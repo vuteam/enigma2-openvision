@@ -1,4 +1,4 @@
-SUBDIRS = countries fonts extensions keymaps skin_default skin_fallback_1080 rc_models
+SUBDIRS = countries fonts extensions keymaps rc_models
 
 if HAVE_BWLCD128
 SUBDIRS += vfd128
@@ -66,18 +66,10 @@ endif
 
 dist_pkgdata_DATA = \
 	encoding.conf \
-	keymap.xml \
 	keytranslation.xml \
-	menu.xml \
 	prev.png \
-	radio.mvi \
-	black.mvi \
 	rcpositions.xml \
-	setup.xml \
-	skin_default.xml \
 	skin_subtitles.xml \
-	skin.xml \
-	startwizard.xml \
 	freesat.t1 \
 	freesat.t2 \
 	iso-639-3.pck \
